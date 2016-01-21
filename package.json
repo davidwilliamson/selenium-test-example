@@ -1,0 +1,18 @@
+{
+  "name": "selenium-test-example",
+  "version": "0.1.0",
+  "description": "Sample cases to demonstrate and validate  selenium-test-framework",
+  "license": "ISC",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/davidwilliamson/selenium-test-example.git"
+  },
+  "author": "david.williamson@docker.com",
+  "dependencies": {
+      "selenium_test_runner": "git+https://github.com/davidwilliamson/selenium-test-framework.git"
+  },
+  "scripts": {
+    "selenium": "./node_modules/selenium_test_runner/scripts/start-tests.sh",
+    "selenium-standalone": "./node_modules/selenium_test_runner/scripts/run-tests-standalone.sh"
+  }
+}
